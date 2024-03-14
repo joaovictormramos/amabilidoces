@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: brown;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content:space-around;
+}
+
+.menu{
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+input{
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 127);
+    outline: none;   
+    padding-left: 5px; 
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding-left: 15px;
+    list-style: none;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}

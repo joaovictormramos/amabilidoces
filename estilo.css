@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+
+@font-face{
+    font-family: Jully Julia;
+    src: url(fonte/jully\ julia.ttf);
+}
+
+@font-face{
+    font-family: Amore Mio;
+    src: url(fonte/AmoreMIO.ttf);
+}
+
 header{
     background-color: #ffffff;
     color: #ffffff;
@@ -14,11 +25,34 @@ header{
     padding: 8px;
     justify-content:space-around;
     align-items: center;
+    background-color: brown;
 }
 
 .logo{
-    max-width: 250px;
+    font-family: 'Jully Julia';
+    font-size: 2em;
 }
+
+.logomenor{
+    font-family: 'Amore Mio';
+    font-size: 1em;
+    text-align: right;
+    position: relative;
+    bottom: 30px;
+}
+
+input{
+    font-family: 'Jully Julia';
+    border-radius: 50px;
+    border: 2px solid #f80707;
+    outline: none;   
+    padding-left: 15px; 
+    margin: 5px;
+    width: 20em;
+    height: 3em;
+    font-size: auto;
+}
+
 .menu{
     display: flex;
     padding: 10px 0;
@@ -26,19 +60,9 @@ header{
     background-color: #f80707;
 }
 
-input{
-    border-radius: 10px;
-    border: 2px solid #f80707;
-    outline: none;   
-    padding-left: 5px; 
-    margin: 5px;
-    width: 20em;
-    height: 3em;
-    font-size: auto;
-}
-
 ul{
     display: flex;
+    font-family: 'Jully Julia';
 }
 
 li{
@@ -49,10 +73,25 @@ li{
 a{
     color: #ffffff;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
 div{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+}
+
+.background{
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+
+.tituloback{
+    padding: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 50px;
 }
 
 footer{

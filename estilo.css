@@ -45,11 +45,11 @@ input{
     border-radius: 50px;
     border: 2px solid #f80707;
     outline: none;   
-    padding-left: 15px; 
-    margin: 5px;
+    padding-left: 15px;
+    padding-bottom: 0px; 
     width: 20em;
     height: 3em;
-    font-size: auto;
+    font-size: 1em;
 }
 
 .menu{

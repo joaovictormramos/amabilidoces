@@ -1,17 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-}
-
+}   
 
 @font-face{
     font-family: Jully Julia;
-    src: url(fonte/jully\ julia.ttf);
+    src: url(fonte/jullyjulia.ttf);
 }
 
 @font-face{
     font-family: Amore Mio;
-    src: url(fonte/AmoreMIO.ttf);
+    src: url(fonte/amoremio.ttf);
 }
 
 header{
@@ -38,7 +37,7 @@ header{
     font-size: 1em;
     text-align: right;
     position: relative;
-    bottom: 30px;
+    bottom: 1.25em;
 }
 
 input{
@@ -62,6 +61,7 @@ input{
 
 ul{
     display: flex;
+    font-size: 0.75em;
     font-family: 'Jully Julia';
 }
 

@@ -13,15 +13,10 @@
     src: url(fonte/amoremio.ttf);
 }
 
-header{
-    background-color: #ffffff;
-    color: #ffffff;
-}
-
 .cabecalho {
+    padding-left: 6em;
     display: flex;
     flex-wrap: wrap;
-    padding: 8px;
     justify-content:space-around;
     align-items: center;
     background-color: brown;
@@ -44,9 +39,8 @@ input{
     font-family: 'Jully Julia';
     border-radius: 50px;
     border: 2px solid #f80707;
-    outline: none;   
     padding-left: 15px;
-    padding-bottom: 0px; 
+    outline: none; 
     width: 20em;
     height: 3em;
     font-size: 1em;
@@ -61,13 +55,13 @@ input{
 
 ul{
     display: flex;
-    font-size: 0.75em;
-    font-family: 'Jully Julia';
 }
 
 li{
-    padding-left: 15px;
+    padding: 0 10px 0 10px;
     list-style: none;
+    font-size: 0.8em;
+    font-family: 'Jully Julia';
 }
 
 a{
@@ -87,12 +81,6 @@ div{
     background-size: cover;
 }
 
-.tituloback{
-    padding: 50px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    font-size: 50px;
-}
 
 footer{
     text-align: center;
